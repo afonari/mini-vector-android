@@ -45,7 +45,7 @@ script:
 
 deploy:
   provider: releases
-  file: "vector/build/outputs/apk/app/debug/vector-app-debug.apk"
+  file: "vector/build/outputs/apk/app/release/vector-app-universal-release-unsigned.apk" #"vector/build/outputs/apk/app/debug/vector-app-debug.apk"
   skip_cleanup: true
   draft: true
   on:
