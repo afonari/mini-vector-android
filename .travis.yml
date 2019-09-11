@@ -40,7 +40,8 @@ before_script:
 
 # Just build the project for now
 script:
- - ./gradlew assembleAppDebug
+ - ./gradlew assembleAppRelease #assembleAppDebug
+ - find . -name '*.apk'
 
 deploy:
   provider: releases
